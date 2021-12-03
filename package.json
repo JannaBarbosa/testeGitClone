@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/JannaBarbosa/testeGitClone/issues"
   },
-  "homepage": "https://github.com/JannaBarbosa/testeGitClone#readme"
+  "homepage": "https://github.com/JannaBarbosa/testeGitClone#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
