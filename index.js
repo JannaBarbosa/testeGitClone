@@ -5,9 +5,9 @@ app.get('/', (req, res) => {
     res.status(200).send({ message: "Olá Mundo, este é meu novo repositório clonado!" });
 })
 
-/*app.get('/ola', (req, res) => {
+app.get('/ola', (req, res) => {
     res.status(200).send({ message: "Oi eu sou a rota Olá!" });
-})*/
+})
 
 app.listen(4001, () => {
     console.log("Api rodando na porta 4001");
